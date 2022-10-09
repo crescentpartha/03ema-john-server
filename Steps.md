@@ -8,6 +8,8 @@ Table of Contents
   - [`git push heroku main`](#git-push-heroku-main)
 - [Module 69: Deploy to Heroku and Practice Problem](#module-69-deploy-to-heroku-and-practice-problem-1)
   - [`Documentation Links for Module 69`](#documentation-links-for-module-69)
+- [Reveal Config Vars](#reveal-config-vars)
+  - [`Setup Config Variables in heroku from .env`](#setup-config-variables-in-heroku-from-env)
 
 # Setup from those modules
 
@@ -156,4 +158,22 @@ To https://git.heroku.com/sleepy-sea-74931.git
 
 **[🔼Back to Top](#table-of-contents)**
 
+# Reveal Config Vars
+
+## `Setup Config Variables in heroku from .env`
+
+1. Go to Heroku ___Dashboard___ > Current Project (___sleepy-sea-74931___) > ___Settings___ > ___Reveal Config Vars___
+2. Copy Paste ___config vars___ from your `.env` file
+
+``` JavaScript
+// Reveal Config Vars > Config Vars
+
+// KEY VALUE Add
+DB_USER dbJohn1
+DB_PASS To9RpxEiy4wR2jdO
+```
+
+> `Notes:` After setup `config variables`, `product data` and `productCount data` load from MongoDB database. <br /> `https://sleepy-sea-74931.herokuapp.com/product` <br /> & <br /> `https://sleepy-sea-74931.herokuapp.com/productCount`
+
+**[🔼Back to Top](#table-of-contents)**
 
