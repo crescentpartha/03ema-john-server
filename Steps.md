@@ -10,6 +10,9 @@ Table of Contents
   - [`Documentation Links for Module 69`](#documentation-links-for-module-69)
 - [Reveal Config Vars](#reveal-config-vars)
   - [`Setup Config Variables in heroku from .env`](#setup-config-variables-in-heroku-from-env)
+- [Deploy client side project to firebase with server side url](#deploy-client-side-project-to-firebase-with-server-side-url)
+  - [`UPDATE SERVER with new changes`](#update-server-with-new-changes)
+  - [`Connect Server with Client and Deploy Client`](#connect-server-with-client-and-deploy-client)
 
 # Setup from those modules
 
@@ -176,4 +179,28 @@ DB_PASS To9RpxEiy4wR2jdO
 > `Notes:` After setup `config variables`, `product data` and `productCount data` load from MongoDB database. <br /> `https://sleepy-sea-74931.herokuapp.com/product` <br /> & <br /> `https://sleepy-sea-74931.herokuapp.com/productCount`
 
 **[🔼Back to Top](#table-of-contents)**
+
+# Deploy client side project to firebase with server side url
+
+## `UPDATE SERVER with new changes`
+
+1. Make changes
+2. Make sure everything is ___updated___ like `git add .` `git commit` `git push`
+3. `git push heroku main` 
+
+**[🔼Back to Top](#table-of-contents)**
+
+## `Connect Server with Client and Deploy Client`
+
+1. Replace localhost by heroku link
+   - `http://localhost:5000/` by `https://sleepy-sea-74931.herokuapp.com/` in Client-side (useCart.js - Shop.js - useProducts.js)
+2. `npm run build`
+3. `firebase deploy`
+   - [https://ema-john-simple-447ad.web.app/](https://ema-john-simple-447ad.web.app/) check everything is ok or not.
+
+**[🔼Back to Top](#table-of-contents)**
+
+
+
+
 
