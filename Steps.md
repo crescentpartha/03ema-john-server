@@ -13,6 +13,7 @@ Table of Contents
 - [Deploy client side project to firebase with server side url](#deploy-client-side-project-to-firebase-with-server-side-url)
   - [`UPDATE SERVER with new changes`](#update-server-with-new-changes)
   - [`Connect Server with Client and Deploy Client`](#connect-server-with-client-and-deploy-client)
+- [CORS policy Error](#cors-policy-error)
 
 # Setup from those modules
 
@@ -197,6 +198,13 @@ DB_PASS To9RpxEiy4wR2jdO
 2. `npm run build`
 3. `firebase deploy`
    - [https://ema-john-simple-447ad.web.app/](https://ema-john-simple-447ad.web.app/) check everything is ok or not.
+
+**[🔼Back to Top](#table-of-contents)**
+
+# CORS policy Error
+
+- [Access to fetch at from origin 'http://localhost:3000' has been blocked by CORS policy](https://stackoverflow.com/questions/61238680/access-to-fetch-at-from-origin-http-localhost3000-has-been-blocked-by-cors "stackoverflow.com")
+- [How does the 'Access-Control-Allow-Origin' header work?](https://stackoverflow.com/questions/10636611/how-does-the-access-control-allow-origin-header-work?noredirect=1&lq=1 "stackoverflow.com")
 
 **[🔼Back to Top](#table-of-contents)**
 
